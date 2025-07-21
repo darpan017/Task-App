@@ -43,20 +43,34 @@
         <div class="lists">
           <div class="list">
             <h2>To Do</h2>
+            <div class="cards"></div>
             <button class="add-card">+ Add a card</button>
           </div>
           <div class="list">
             <h2>Work in process</h2>
+            <div class="cards"></div>
             <button class="add-card">+ Add a card</button>
           </div>
           <div class="list">
             <h2>Task Completed</h2>
+            <div class="cards"></div>
             <button class="add-card">+ Add a card</button>
           </div>
-          <button class="add-list">+ Add another list</button>
         </div>
       </section>
     </main>
   </div>
+
+  <!-- Modal for Edit/Delete -->
+  <div id="modal" class="modal">
+    <div class="modal-content">
+      <p id="modal-text">Choose an option</p>
+      <button id="edit-btn">Edit</button>
+      <button id="delete-btn">Delete</button>
+      <button id="cancel-btn">Cancel</button>
+    </div>
+  </div>
+
+  <script src="darpan.js"></script>
 </body>
 </html>
